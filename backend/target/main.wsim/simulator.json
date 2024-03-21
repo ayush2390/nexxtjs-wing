@@ -1,0 +1,189 @@
+{
+  "types": {
+    "@winglang/sdk.cloud.Api": {
+      "className": "Api",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\api.inflight.js"
+    },
+    "@winglang/sdk.cloud.Bucket": {
+      "className": "Bucket",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\bucket.inflight.js"
+    },
+    "@winglang/sdk.cloud.Counter": {
+      "className": "Counter",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\counter.inflight.js"
+    },
+    "@winglang/sdk.cloud.Domain": {
+      "className": "Domain",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\domain.inflight.js"
+    },
+    "@winglang/sdk.ex.DynamodbTable": {
+      "className": "DynamodbTable",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\dynamodb-table.inflight.js"
+    },
+    "@winglang/sdk.cloud.Endpoint": {
+      "className": "Endpoint",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\endpoint.inflight.js"
+    },
+    "@winglang/sdk.sim.EventMapping": {
+      "className": "EventMapping",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\event-mapping.inflight.js"
+    },
+    "@winglang/sdk.cloud.Function": {
+      "className": "Function",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\function.inflight.js"
+    },
+    "@winglang/sdk.cloud.OnDeploy": {
+      "className": "OnDeploy",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\on-deploy.inflight.js"
+    },
+    "@winglang/sdk.cloud.Queue": {
+      "className": "Queue",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\queue.inflight.js"
+    },
+    "@winglang/sdk.ex.ReactApp": {
+      "className": "ReactApp",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\react-app.inflight.js"
+    },
+    "@winglang/sdk.ex.Redis": {
+      "className": "Redis",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\redis.inflight.js"
+    },
+    "@winglang/sdk.cloud.Schedule": {
+      "className": "Schedule",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\schedule.inflight.js"
+    },
+    "@winglang/sdk.cloud.Secret": {
+      "className": "Secret",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\secret.inflight.js"
+    },
+    "@winglang/sdk.cloud.Service": {
+      "className": "Service",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\service.inflight.js"
+    },
+    "@winglang/sdk.sim.State": {
+      "className": "State",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\state.inflight.js"
+    },
+    "@winglang/sdk.ex.Table": {
+      "className": "Table",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\table.inflight.js"
+    },
+    "@winglang/sdk.std.TestRunner": {
+      "className": "TestRunner",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\test-runner.inflight.js"
+    },
+    "@winglang/sdk.cloud.Topic": {
+      "className": "Topic",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\topic.inflight.js"
+    },
+    "@winglang/sdk.cloud.Website": {
+      "className": "Website",
+      "sourcePath": "E:\\Users\\Ayush Thakur\\AppData\\Roaming\\npm\\node_modules\\winglang\\node_modules\\@winglang\\sdk\\lib\\target-sim\\website.inflight.js"
+    }
+  },
+  "resources": [
+    {
+      "type": "@winglang/sdk.cloud.Endpoint",
+      "path": "root/Default/Api/Endpoint",
+      "addr": "c829fae637aa32836acf2076c609c41e797952c8ed",
+      "props": {
+        "inputUrl": "${wsim#root/Default/Api#attrs.url}",
+        "url": "${wsim#root/Default/Api#attrs.url}",
+        "label": "Api root/Default/Api"
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/Api/OnRequestHandler0",
+      "addr": "c8a03e6b20dce533cd2fc66107e6169a090a28cdaf",
+      "props": {
+        "sourceCodeFile": ".wing\\onrequesthandler0_c8a03e6b.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim"
+        },
+        "timeout": 60000,
+        "concurrency": 100
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Api",
+      "path": "root/Default/Api",
+      "addr": "c844b5bd94b86e1a199d660e51d0967df1ceab8c24",
+      "props": {
+        "openApiSpec": {
+          "openapi": "3.0.3",
+          "paths": {
+            "/hello": {
+              "get": {
+                "operationId": "get-hello",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {}
+                  }
+                },
+                "parameters": []
+              }
+            }
+          }
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/Api/ApiEventMapping0",
+      "addr": "c81b472b3c1d10b65303684e2e1934fb59cce39368",
+      "props": {
+        "subscriber": "${wsim#root/Default/Api/OnRequestHandler0#attrs.handle}",
+        "publisher": "${wsim#root/Default/Api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
+              "path": "/hello",
+              "method": "GET"
+            }
+          ]
+        }
+      },
+      "attrs": {},
+      "deps": [
+        "root/Default/Api/OnRequestHandler0",
+        "root/Default/Api"
+      ]
+    },
+    {
+      "type": "@winglang/sdk.cloud.Service",
+      "path": "root/Default/AnyJS/AnyJSSim/Service",
+      "addr": "c85a315f729a54d59a83c1979c1256f5e304a178a8",
+      "props": {
+        "environmentVariables": {
+          "WING_TARGET": "sim",
+          "WING_TOKEN_WSIM_ROOT_DEFAULT_API_ATTRS_URL": "${wsim#root/Default/Api#attrs.url}"
+        },
+        "sourceCodeFile": ".wing\\service_c85a315f.js",
+        "autoStart": true
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/AnyJS/Field/Handler",
+      "addr": "c8662d297dd962e3bb6717e174751007ea956cd89b",
+      "props": {
+        "sourceCodeFile": ".wing\\handler_c8662d29.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim"
+        },
+        "timeout": 60000,
+        "concurrency": 100
+      },
+      "attrs": {}
+    }
+  ],
+  "sdkVersion": "0.62.4"
+}

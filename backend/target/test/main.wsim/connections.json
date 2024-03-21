@@ -1,0 +1,15 @@
+{
+  "version": "connections-0.1",
+  "connections": [
+    {
+      "source": "root/env0/Api",
+      "target": "root/env0/Api/OnRequestHandler0",
+      "name": "get()"
+    },
+    {
+      "source": "root/env0/Api/OnRequestHandler0",
+      "target": "root/env0/$Closure1_0",
+      "name": "handle()"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "connections-0.1",
+  "connections": [
+    {
+      "source": "root/Default/Api",
+      "target": "root/Default/Api/OnRequestHandler0",
+      "name": "get()"
+    },
+    {
+      "source": "root/Default/Api/OnRequestHandler0",
+      "target": "root/Default/$Closure1_0",
+      "name": "handle()"
+    },
+    {
+      "source": "root/Default/AnyJS/AnyJSSim/Service",
+      "target": "root/Default/AnyJS/AnyJSSim/$Closure1_0",
+      "name": "handle()"
+    },
+    {
+      "source": "root/Default/AnyJS/Field/Handler",
+      "target": "root/Default/AnyJS/$Closure1_0",
+      "name": "handle()"
+    }
+  ]
+}
